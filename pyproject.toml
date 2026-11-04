@@ -1,0 +1,17 @@
+[project]
+name = "rl-homework"
+version = "0.1.0"
+description = "强化学习作业与实验"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+package = false
